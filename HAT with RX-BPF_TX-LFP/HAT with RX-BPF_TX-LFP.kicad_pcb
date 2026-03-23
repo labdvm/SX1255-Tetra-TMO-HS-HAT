@@ -10,7 +10,7 @@
 	(title_block
 		(title "SX1255-SXceiver-HAT")
 		(date "2026-03-23")
-		(rev "V1.3.3 FINAL")
+		(rev "V1.0 FINAL")
 		(company "Z32IT")
 		(comment 1 "Modified SXceiver")
 	)
@@ -7759,7 +7759,7 @@
 		(path "/f1997030-403d-4b6f-8381-300a2fbc1593")
 		(sheetname "/")
 		(sheetfile "HAT with RX-BPF_TX-LFP.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -17159,7 +17159,7 @@
 		(path "/9dd67a35-90e2-413b-b006-3047fda51168")
 		(sheetname "/")
 		(sheetfile "HAT with RX-BPF_TX-LFP.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
