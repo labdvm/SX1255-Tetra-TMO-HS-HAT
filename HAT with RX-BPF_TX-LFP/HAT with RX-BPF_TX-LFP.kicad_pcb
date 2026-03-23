@@ -5295,7 +5295,7 @@
 		(path "/749ea570-7461-4a4f-9faa-f631612f7696")
 		(sheetname "/")
 		(sheetfile "HAT with RX-BPF_TX-LFP.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -14722,7 +14722,7 @@
 		(path "/c139f8f2-cdd7-4d44-b321-a0520447622e")
 		(sheetname "/")
 		(sheetfile "HAT with RX-BPF_TX-LFP.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.8 -0.735)
 			(end -1.66 -0.735)
@@ -16625,7 +16625,7 @@
 		(path "/7ae72e5e-9b10-4602-bab4-9feb5208d534")
 		(sheetname "/")
 		(sheetfile "HAT with RX-BPF_TX-LFP.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -21792,7 +21792,7 @@
 		(path "/76b745c3-8168-461f-a493-72ff30020865")
 		(sheetname "/")
 		(sheetfile "HAT with RX-BPF_TX-LFP.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0.8 -0.735)
 			(end -1.66 -0.735)
