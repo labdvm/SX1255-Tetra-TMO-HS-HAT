@@ -1,4 +1,4 @@
-# SX1255--HAT
+# SX1255--HAT's
 This is modified SXceiver, thanks to Tatu Peltola for shared schematic.
 # Four versions of HAT's: HAT with (LowPass filters, PA and IPX connectors)/ HAT with (BandPass filters, PA and SMA connectors)/ HAT's with (combinied LPF and BPF filters, IPX and SMA connectors and PA)/ HAT with BandPass filters, ceramic antennas and without PA.
 # RPi4/5, fast-write micro-sd card or upgraded with M.2 nvme drive.
