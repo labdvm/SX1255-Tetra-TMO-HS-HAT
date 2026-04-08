@@ -5,9 +5,9 @@
 	(uuid "5946dd4e-fab1-4214-b6c7-4fabd0e98d1f")
 	(paper "A3")
 	(title_block
-		(title "HAT with LPF & BPF filters and SPI line protection")
-		(date "2026-03-30")
-		(rev "V1.2")
+		(title "HAT little PA")
+		(date "2026-04-08")
+		(rev "V1.3")
 		(company "Z32IT")
 		(comment 1 "Modified SXceiver")
 	)
@@ -15144,7 +15144,7 @@
 		(at 273.05 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15184,6 +15184,15 @@
 			)
 		)
 		(property "Description" "Bandpass Filter, 430MHz, BW-4MHz"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Aliexpress" "https://www.aliexpress.com/item/1005010661905531.html?spm=a2g0o.order_detail.order_detail_item.4.56ebf19cmfwY3c"
 			(at 273.05 68.58 0)
 			(effects
 				(font
@@ -16006,8 +16015,8 @@
 		(lib_id "Device:R_Small")
 		(at 351.79 195.58 270)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "749ea570-7461-4a4f-9faa-f631612f7696")
@@ -16260,8 +16269,8 @@
 		(lib_id "Device:LED_Small")
 		(at 359.41 195.58 180)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "76b745c3-8168-461f-a493-72ff30020865")
@@ -16363,8 +16372,8 @@
 		(lib_id "Device:R_Small")
 		(at 351.79 190.5 270)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7ae72e5e-9b10-4602-bab4-9feb5208d534")
@@ -17673,7 +17682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "White"
+		(property "Value" "Red"
 			(at 176.53 237.5534 90)
 			(effects
 				(font
@@ -17727,7 +17736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "LTST-T180UWET"
+		(property "Manufacturer Product Number" "LTST-S270KRKT"
 			(at 173.99 236.22 90)
 			(effects
 				(font
@@ -17736,7 +17745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "160-LTST-T180UWETCT-ND"
+		(property "Part Number" "160-1479-1-ND"
 			(at 173.99 236.22 90)
 			(effects
 				(font
@@ -19407,8 +19416,8 @@
 		(lib_id "Device:LED_Small")
 		(at 359.41 190.5 180)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c139f8f2-cdd7-4d44-b321-a0520447622e")
@@ -20887,7 +20896,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "Yellow"
 			(at 370.332 171.958 0)
 			(effects
 				(font
@@ -20931,7 +20940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
+		(property "Manufacturer" "Lite-On Inc."
 			(at 359.41 172.72 0)
 			(effects
 				(font
@@ -20940,7 +20949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "APT1608SGD3"
+		(property "Manufacturer Product Number" "LTST-C190KSKT"
 			(at 359.41 172.72 0)
 			(effects
 				(font
@@ -20949,7 +20958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "754-APT1608SGD3CT-ND"
+		(property "Part Number" "160-1437-1-ND"
 			(at 359.41 172.72 0)
 			(effects
 				(font
@@ -21056,7 +21065,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "White"
 			(at 369.824 166.116 0)
 			(effects
 				(font
@@ -21100,7 +21109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
+		(property "Manufacturer" "Lite-On Inc."
 			(at 359.41 167.64 0)
 			(effects
 				(font
@@ -21109,7 +21118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "APT1608SGD3"
+		(property "Manufacturer Product Number" "LTST-T180UWET"
 			(at 359.41 167.64 0)
 			(effects
 				(font
@@ -21118,7 +21127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "754-APT1608SGD3CT-ND"
+		(property "Part Number" "160-LTST-T180UWETCT-ND"
 			(at 359.41 167.64 0)
 			(effects
 				(font
@@ -21986,8 +21995,8 @@
 		(lib_id "Power_Protection:SRV05-4")
 		(at 292.1 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -22029,6 +22038,33 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
+			(at 292.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Semtech Corporation"
+			(at 292.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "SRV05-4.TCT"
+			(at 292.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "SRV05-4CT-ND"
 			(at 292.1 173.99 0)
 			(effects
 				(font
