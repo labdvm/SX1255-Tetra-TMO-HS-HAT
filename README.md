@@ -7,7 +7,7 @@ This is modified SXceiver, thanks to Tatu Peltola for shared schematic.
 # For Tetra-TMO Base Station this is the installing procedures, " https://github.com/MidnightBlueLabs/tetra-bluestation-docs/wiki ".
 https://github.com/MidnightBlueLabs/tetra-bluestation
 
-# The PA (TQP3M9036) can amplify up to 20dBm @ (70cm-band) 
+# The PA (TQP3M9036) can amplify up to 25dBm @ (70cm-band) 
 # BlueStation Tetra TMO configurator " https://bluestation.russel053.com/ "
 # Z32IT
 # I can make Custom design too. (pclab.mk@gmail.com)
