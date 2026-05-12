@@ -11,50 +11,50 @@ This is modified SXceiver, thanks to Tatu Peltola for shared schematic.
 # FlowStation, https://github.com/razvanzeces/flowstation
 # BlueStation Tetra TMO configurator " https://bluestation.russel053.com/ "
 
-# Install FlowStation ---for sxceiver---
-1. Install Trixie 64bit-LITE
-2. 
-sudo apt update
-sudo apt install git make g++ cmake
-sudo apt install libsoapysdr-dev
-sudo apt install soapysdr-tools
-sudo apt install libasound2-dev
-sudo apt install clang llvm-dev libclang-dev
+Install FlowStation ---for sxceiver---
+# 1. Install Trixie 64bit-LITE
+# 2. 
+# sudo apt update
+# sudo apt install git make g++ cmake
+# sudo apt install libsoapysdr-dev
+# sudo apt install soapysdr-tools
+# sudo apt install libasound2-dev
+# sudo apt install clang llvm-dev libclang-dev
 
 3. Rust
-curl https://sh.rustup.rs -sSf | sh
+# curl https://sh.rustup.rs -sSf | sh
 
 4. SoapySX "enable SPI and I2C on the RPi"
-cd
-git clone "https://github.com/tejeez/sxxcvr.git"
-cd sxxcvr/SoapySX
-mkdir build
-cd build
-cmake ..
-make
-sudo make install
-sudo ldconfig
+# cd
+# git clone "https://github.com/tejeez/sxxcvr.git"
+# cd sxxcvr/SoapySX
+# mkdir build
+# cd build
+# cmake ..
+# make
+# sudo make install
+# sudo ldconfig
 
 Check that the driver is available:
-SoapySDRUtil --info
+# SoapySDRUtil --info
 
 Check that the device is detected:
-ls -l /proc/device-tree/hat
-SoapySDRUtil --probe=driver=sx
+# ls -l /proc/device-tree/hat
+# SoapySDRUtil --probe=driver=sx
 
 5. The FlowStation
-git clone https://github.com/razvanzeces/flowstation
-cd flowstation
-. "$HOME/.cargo/env"
-cargo build --release
-cp example_config/config.toml config.toml
-nano config.toml (configure the base station)
+# git clone https://github.com/razvanzeces/flowstation
+# cd flowstation
+# . "$HOME/.cargo/env"
+# cargo build --release
+# cp example_config/config.toml config.toml
+# nano config.toml (configure the base station)
 
 6. Run
-./target/release/bluestation-bs ./config.toml
+# ./target/release/bluestation-bs ./config.toml
 
 7. Update
-git pull
-cargo build --release
+# git pull
+# cargo build --release
 
 # Z32IT
