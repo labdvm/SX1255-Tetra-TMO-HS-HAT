@@ -21,10 +21,10 @@ Install FlowStation ---for sxceiver---
 # sudo apt install libasound2-dev
 # sudo apt install clang llvm-dev libclang-dev
 
-3. Rust
+3. Rust:
 # curl https://sh.rustup.rs -sSf | sh
 
-4. SoapySX "enable SPI and I2C on the RPi"
+4. SoapySX "enable SPI and I2C on the RPi" first with "sudo raspi-config":
 # cd
 # git clone "https://github.com/tejeez/sxxcvr.git"
 # cd sxxcvr/SoapySX
@@ -42,7 +42,7 @@ Check that the device is detected:
 # ls -l /proc/device-tree/hat
 # SoapySDRUtil --probe=driver=sx
 
-5. The FlowStation
+5. The FlowStation:
 # git clone https://github.com/razvanzeces/flowstation
 # cd flowstation
 # . "$HOME/.cargo/env"
@@ -50,10 +50,10 @@ Check that the device is detected:
 # cp example_config/config.toml config.toml
 # nano config.toml (configure the base station)
 
-6. Run
+6. Run:
 # ./target/release/bluestation-bs ./config.toml
 
-7. Update
+7. Update:
 # git pull
 # cargo build --release
 
