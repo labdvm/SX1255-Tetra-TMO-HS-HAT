@@ -4,7 +4,7 @@ This is modified SXceiver, thanks to Tatu Peltola for shared schematic.
 # Two versions of HAT's: HAT with (LPF_TX, BPF_RX filters and PA) and HAT with (LPF_TX, BPF_RX filters without PA) and added SPI line protection IC. The first HAT also is known as "Little PA".
 # The PA (TQP3M9036) can amplify up to ~25dBm @ (70cm-band) 
 # I can make Custom design too. (pclab.mk@gmail.com)
-# RPi 3/4/5, fast-write micro-sd card or upgraded with M.2 nvme drive.
+# RPi 4/5, fast-write micro-sd card or upgraded with M.2 nvme drive.
 # The eeprom is for HW-ID " https://github.com/tejeez/sxxcvr/blob/main/dts/README.md ".
 # For Tetra-TMO Base Station this is the installing procedures, " https://github.com/MidnightBlueLabs/tetra-bluestation-docs/wiki ".
 # BlueStation, https://github.com/MidnightBlueLabs/tetra-bluestation
