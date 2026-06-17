@@ -1,7 +1,7 @@
 # SX1255--HAT's
 
 This is modified SXceiver, thanks to Tatu Peltola for shared schematic.
-# Three versions of HAT's: HAT with (LPF_TX, BPF_RX filters and PA)/ HAT with (LPF_TX, BPF_RX filters without PA) and HAT with (BandPass filters, ceramic antennas without PA) and added SPI line protection IC. The first HAT also is known as "Little PA".
+# Two versions of HAT's: HAT with (LPF_TX, BPF_RX filters and PA) and HAT with (LPF_TX, BPF_RX filters without PA) and added SPI line protection IC. The first HAT also is known as "Little PA".
 # The PA (TQP3M9036) can amplify up to ~25dBm @ (70cm-band) 
 # I can make Custom design too. (pclab.mk@gmail.com)
 # RPi 3/4/5, fast-write micro-sd card or upgraded with M.2 nvme drive.
