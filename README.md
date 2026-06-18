@@ -1,5 +1,8 @@
 # SX1255--HAT's
 
+# Little PA HAT you can order from here:
+- <a href="https://www.pcbway.com/project/shareproject/SX1255_HAT_Little_PA_16c1f7b7.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
+
 This is modified SXceiver, thanks to Tatu Peltola for shared schematic.
 # Two versions of HAT's: HAT with (LPF_TX, BPF_RX filters and PA) and HAT with (LPF_TX, BPF_RX filters without PA) and added SPI line protection IC. The first HAT also is known as "Little PA".
 # The PA (TQP3M9036) can amplify up to ~25dBm @ (70cm-band) 
