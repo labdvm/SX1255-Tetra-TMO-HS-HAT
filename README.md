@@ -36,7 +36,7 @@ Install FlowStation ---for sxceiver---
 # dtparam=i2c_vc=on
 "Reboot the Rpi"
 
-6. Install SoapySX:
+5. Install SoapySX:
 # cd
 # git clone "https://github.com/tejeez/sxxcvr.git"
 # cd sxxcvr/SoapySX
@@ -68,7 +68,7 @@ Check that the device is detected:
 # cd flowstation
 # ./target/release/bluestation-bs ./config.toml
 
-7. Update:
+8. Update:
 # git pull
 # cargo build --release
 
