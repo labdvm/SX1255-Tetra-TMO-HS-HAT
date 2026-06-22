@@ -61,6 +61,8 @@ Check that the device is detected:
 # cargo build --release (or cargo build --release -j1)
 # cp example_config/config.toml config.toml
 # nano config.toml "configure the base station"
+- After configured "config.toml" make a fallback copy
+# cp config.toml config.toml.fallback
 
 7. Run:
 # cd flowstation
