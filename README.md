@@ -58,7 +58,7 @@ Check that the device is detected:
 # git clone https://github.com/razvanzeces/flowstation
 # cd flowstation
 # . "$HOME/.cargo/env"
-# cargo build --release
+# cargo build --release (or cargo build --release -j1)
 # cp example_config/config.toml config.toml
 # nano config.toml "configure the base station"
 
